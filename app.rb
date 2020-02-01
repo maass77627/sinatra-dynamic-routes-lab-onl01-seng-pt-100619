@@ -8,7 +8,8 @@ class App < Sinatra::Base
   end 
 
   get '/square/:number'
-  params[:number]
+  "#{params[:number].to_i.squared!}"
+end 
   
 
 
