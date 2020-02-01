@@ -7,6 +7,7 @@ get '/reversename/:name' do
   params[:name].reverse 
 end 
 
+get 
 
 
 
