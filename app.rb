@@ -38,11 +38,11 @@ class App < Sinatra::Base
       when "add"
         (@number1 + @number2).to_s
       when "multiply"
-        (@number1 * @num2).to_s
+        (@number1 * @number2).to_s
       when "divide"
-        (@num1 / @num2).to_s
+        (@number1 / @number2).to_s
     end
- end 
+ 
 
 
 end
