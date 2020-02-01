@@ -19,6 +19,7 @@ class App < Sinatra::Base
     str
   end
 
+  get 
 
 
 
